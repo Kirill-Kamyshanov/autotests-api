@@ -5,11 +5,11 @@ from httpx import Response
 from clients.api_client import APIClient
 
 
-class GetExercisesApiRequest(TypedDict):
+class GetExercisesQueryDict(TypedDict):
     courseId: str
 
 
-class CreateExerciseApiRequest(TypedDict):
+class CreateExerciseRequestDict(TypedDict):
     title: str
     courseId: str
     maxScore: int
@@ -19,7 +19,7 @@ class CreateExerciseApiRequest(TypedDict):
     estimatedTime: str
 
 
-class UpdateExerciseApiRequest(TypedDict):
+class UpdateExerciseRequestDict(TypedDict):
     title: str | None
     maxScore: int | None
     minScore: int | None
@@ -31,7 +31,7 @@ class UpdateExerciseApiRequest(TypedDict):
 class ExercisesClient(APIClient):
     """Клиент для работы с /api/v1/exercises"""
 
-    def get_exercises_api(self, query: GetExercisesApiRequest) -> Response:
+    def get_exercises_api(self, query: GetExercisesQueryDict) -> Response:
         """
         Получение списка заданий для определенного курса.
 
@@ -49,7 +49,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"api/v1/exercises/{exercise_id}")
 
-    def create_exercise_api(self, request: CreateExerciseApiRequest) -> Response:
+    def create_exercise_api(self, request: CreateExerciseRequestDict) -> Response:
         """
         Создание задания.
 
@@ -58,7 +58,7 @@ class ExercisesClient(APIClient):
         """
         return self.post("api/v1/exercises", json=request)
 
-    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseApiRequest) -> Response:
+    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestDict) -> Response:
         """
         Обновление данных задания.
 
