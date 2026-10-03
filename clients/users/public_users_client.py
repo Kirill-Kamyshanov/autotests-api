@@ -24,4 +24,4 @@ class PublicUsersClient(APIClient):
         :param request: Словарь с данными для создания пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url="ali/v1/users", json=request)
+        return self.post(url="api/v1/users", json=request)
