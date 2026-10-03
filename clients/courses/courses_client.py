@@ -6,16 +6,12 @@ from clients.api_client import APIClient
 
 
 class GetCoursesQueryDict(TypedDict):
-    """
-    Описание структуры запроса на получение списка курсов.
-    """
+    """Описание структуры запроса на получение списка курсов."""
     userId: str
 
 
 class CreateCourseRequestDict(TypedDict):
-    """
-    Описание структуры запроса на создание курса.
-    """
+    """Описание структуры запроса на создание курса."""
     title: str
     maxScore: int
     minScore: int
@@ -26,9 +22,7 @@ class CreateCourseRequestDict(TypedDict):
 
 
 class UpdateCourseRequestDict(TypedDict):
-    """
-    Описание структуры запроса на обновление курса.
-    """
+    """Описание структуры запроса на обновление курса."""
     title: str | None
     maxScore: int | None
     minScore: int | None
@@ -37,9 +31,7 @@ class UpdateCourseRequestDict(TypedDict):
 
 
 class CoursesClient(APIClient):
-    """
-    Клиент для работы с /api/v1/courses
-    """
+    """Клиент для работы с /api/v1/courses"""
 
     def get_courses_api(self, query: GetCoursesQueryDict) -> Response:
         """
