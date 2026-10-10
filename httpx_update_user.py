@@ -1,6 +1,6 @@
 import httpx
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 host = "http://127.0.0.1:8000"
 
