@@ -84,7 +84,7 @@ class ExercisesClient(APIClient):
         :return: Тело ответа - объект CreateExerciseResponseSchema.
         """
         response = self.create_exercise_api(request=request)
-        return CreateExerciseResponseSchema.model_validate(response.text)
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         """

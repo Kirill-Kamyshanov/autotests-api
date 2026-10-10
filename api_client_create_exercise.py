@@ -52,7 +52,7 @@ print('Create course data:', create_course_response)
 create_exercise_request = CreateExerciseRequestSchema(
     title="Exercise 1",
     course_id=create_course_response.course.id,
-    max_score=2,
+    max_score=10,
     min_score=6,
     order_index=0,
     description='Exercise 1',
