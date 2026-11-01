@@ -38,8 +38,10 @@ class UpdateExerciseResponseSchema(BaseModel):
 
 
 class GetExercisesQuerySchema(BaseModel):
-    """Описание параметров запроса для получения данных о курсах."""
-    courseId: str
+    """Описание параметров запроса для получения данных о заданиях."""
+    model_config = ConfigDict(populate_by_name=True)
+
+    course_id: str = Field(alias="courseId")
 
 
 class CreateExerciseRequestSchema(BaseModel):
