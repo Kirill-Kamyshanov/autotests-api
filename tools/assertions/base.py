@@ -18,6 +18,7 @@ def assert_status_code(actual: int, expected: int):
         f'Actual status code: {actual}'
     )
 
+
 @allure.step("Check that {name} equals to {expected}")
 def assert_equal(actual: Any, expected: Any, name: str):
     """
@@ -34,6 +35,7 @@ def assert_equal(actual: Any, expected: Any, name: str):
         f'Actual value: {actual}'
     )
 
+
 @allure.step("Check that {name} is true")
 def assert_is_true(actual: Any, name: str):
     """
@@ -47,6 +49,7 @@ def assert_is_true(actual: Any, name: str):
         f'Incorrect value: "{name}". '
         f'Expected true value but got: {actual}'
     )
+
 
 def assert_length(actual: Sized, expected: Sized, name: str):
     """
