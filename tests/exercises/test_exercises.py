@@ -65,14 +65,14 @@ class TestExercises:
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
 
-def test_get_exercises(exercises_client: ExercisesClient, function_exercise: ExerciseFixture, function_course: CourseFixture):
-    query = GetExercisesQuerySchema(course_id=function_course.response.course.id)
+    def test_get_exercises(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture, function_course: CourseFixture):
+        query = GetExercisesQuerySchema(course_id=function_course.response.course.id)
 
-    response = exercises_client.get_exercises_api(query)
-    response_data = GetExercisesResponseSchema.model_validate_json(response.text)
+        response = exercises_client.get_exercises_api(query)
+        response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 
-    assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_status_code(response.status_code, HTTPStatus.OK)
 
-    assert_get_exercises_response(response_data, [function_exercise.response])
+        assert_get_exercises_response(response_data, [function_exercise.response])
 
-    validate_json_schema(response.json(), response_data.model_json_schema())
+        validate_json_schema(response.json(), response_data.model_json_schema())
