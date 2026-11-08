@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU5LjcyMTAyMyIsInVzZXJfaWQiOiJmNWI0ODVhMy0xMmY5LTQ1ZTMtYWUyZS03MzgwMmQ2OWE1OWMifQ.gTH72UWRETvmRCjdO28KSMI-SWGYhDGYU4dAHDFMRsY'\
+-H 'content-length: 337'\
+-H 'content-type: application/json'\
+-d '{"title":"Benefit person shoulder case adult.","maxScore":90,"minScore":2,"description":"Theory successful dark move performance movement under memory. Leader along book approach particularly west.","estimatedTime":"4 weeks","previewFileId":"7ec7006c-b5f3-485c-8e34-d676ab9fa04a","createdByUserId":"f5b485a3-12f9-45e3-ae2e-73802d69a59c"}'

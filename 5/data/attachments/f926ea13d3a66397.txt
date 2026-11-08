@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU4LjU0NzYxNSIsInVzZXJfaWQiOiI0NjhhZjM2OC1kZDUzLTQ2YzgtODQ3OC1iOWY4MWY4MWUzYzcifQ.erxCpadh-CGI9LqjsWzynoeHqJzoEPf1Pd1eVxP6az0'\
+-H 'content-length: 343'\
+-H 'content-type: application/json'\
+-d '{"title":"Voice artist be soldier natural.","maxScore":78,"minScore":5,"description":"Participant every shoulder personal chance name. Walk degree financial already. Picture those home more science whom.","estimatedTime":"1 weeks","previewFileId":"6a1403eb-3e0a-4dfb-b5d9-09905dcca325","createdByUserId":"468af368-dd53-46c8-8478-b9f81f81e3c7"}'

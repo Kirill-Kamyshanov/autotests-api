@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/ce972955-91ac-49c6-b915-200671f0ecdc'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU3LjkwNDI2MCIsInVzZXJfaWQiOiJjOTc5MWIzMS1kM2Q5LTQ1MjctYjc0OC1lNDhhOTI4MzY2ODkifQ.DDVYinDAKS7YjrNqcHdpuTU3elcU_Y0SaOW0oGMrbkQ'\
+-H 'content-length: 287'\
+-H 'content-type: application/json'\
+-d '{"title":"Former example interest fire trip poor.","maxScore":65,"minScore":16,"description":"Picture until recent analysis. Real Mrs sense federal fund them. Pull yard member war.\nIndicate out meeting bring break man important tax. Property end finally buy.","estimatedTime":"1 weeks"}'

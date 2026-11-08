@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/c99d40d9-5a81-4276-b62c-5f2f46bfc544'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU5LjcyMTAyMyIsInVzZXJfaWQiOiJmNWI0ODVhMy0xMmY5LTQ1ZTMtYWUyZS03MzgwMmQ2OWE1OWMifQ.gTH72UWRETvmRCjdO28KSMI-SWGYhDGYU4dAHDFMRsY'\
+-H 'content-length: 263'\
+-H 'content-type: application/json'\
+-d '{"title":"Minute he that evidence society though.","maxScore":61,"minScore":30,"orderIndex":72,"description":"Society until serious place even. Art meet successful particular several whole. Official activity generation land investment.","estimatedTime":"4 weeks"}'

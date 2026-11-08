@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE4OjAwLjMwMTY1NiIsInVzZXJfaWQiOiIzNGUzNThhMS1kY2JiLTQwMTItYjQyOS05OGFlNjJjYjRjN2IifQ.nKOxm-YcqUDUcPVwe8e1N4-EnOqKCatLiAPEa_lZauo'\
+-H 'content-length: 361'\
+-H 'content-type: application/json'\
+-d '{"title":"Away provide behavior happen.","maxScore":87,"minScore":18,"description":"Least human produce trial send. Recently stock affect one how near rest. Company history consumer know. Serve leg step adult around head.","estimatedTime":"6 weeks","previewFileId":"331a929e-8ae2-4256-8798-90fb03648bb1","createdByUserId":"34e358a1-dcbb-4012-b429-98ae62cb4c7b"}'

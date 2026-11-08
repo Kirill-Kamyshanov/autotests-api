@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU3LjI4Nzc2OCIsInVzZXJfaWQiOiI3ZDg3MGQyMS03ZDNlLTQzNGYtODM2Mi1kZmRmNGM5YzQyNTYifQ.Pzzuzujc25IgeZbJCfUwg0kb9fvMeqsURS2lyCluH9o'\
+-H 'content-length: 432'\
+-H 'content-type: application/json'\
+-d '{"title":"Town site another whether protect government central.","maxScore":67,"minScore":20,"description":"Chance street fly upon. Make between maybe property role. Carry become land carry include.\nLeg also anything everyone offer explain certain necessary. Real happen station bill modern.","estimatedTime":"6 weeks","previewFileId":"86589fbd-a0c1-455d-84db-4effe79973e8","createdByUserId":"7d870d21-7d3e-434f-8362-dfdf4c9c4256"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU3LjkwNDI2MCIsInVzZXJfaWQiOiJjOTc5MWIzMS1kM2Q5LTQ1MjctYjc0OC1lNDhhOTI4MzY2ODkifQ.DDVYinDAKS7YjrNqcHdpuTU3elcU_Y0SaOW0oGMrbkQ'\
+-H 'content-length: 353'\
+-H 'content-type: application/json'\
+-d '{"title":"Player total camera half order go.","maxScore":90,"minScore":17,"description":"Spend brother television society pretty security thank. Strategy not material shoulder sign.\nFinish truth become community.","estimatedTime":"9 weeks","previewFileId":"0b38a7f6-bd91-4745-92ba-8fd9603dcc11","createdByUserId":"c9791b31-d3d9-4527-b748-e48a92836689"}'

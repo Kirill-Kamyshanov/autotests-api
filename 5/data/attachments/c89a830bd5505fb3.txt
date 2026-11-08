@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE3OjU5LjcyMTAyMyIsInVzZXJfaWQiOiJmNWI0ODVhMy0xMmY5LTQ1ZTMtYWUyZS03MzgwMmQ2OWE1OWMifQ.gTH72UWRETvmRCjdO28KSMI-SWGYhDGYU4dAHDFMRsY'\
+-H 'content-length: 239'\
+-H 'content-type: application/json'\
+-d '{"title":"By just Mr Democrat parent.","courseId":"6e402410-3026-4dd1-a235-c410d0ad0b57","maxScore":75,"minScore":12,"orderIndex":38,"description":"Year teach energy clear head you. Necessary song produce good.","estimatedTime":"10 weeks"}'

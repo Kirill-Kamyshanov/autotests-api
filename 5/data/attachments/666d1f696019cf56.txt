@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjE4OjAwLjk1ODE5MCIsInVzZXJfaWQiOiJlZTk0NDlkYy1kMTU0LTRjNjMtYTg5Yi1hNTYyZGM4ZTgwNTAifQ.BjxIFgwau7DbkNYKzYABkou6vYLjDUHwzha0qqEoV7o'\
+-H 'content-length: 374'\
+-H 'content-type: application/json'\
+-d '{"title":"If play read husband.","maxScore":88,"minScore":24,"description":"Common home at something wish. Smile rock major interest.\nBar house hour. Culture campaign interview mother. Moment heart various why perhaps hit yes attack.","estimatedTime":"9 weeks","previewFileId":"2c5045b1-03a4-4a0a-bdbd-1956b23e404a","createdByUserId":"ee9449dc-d154-4c63-a89b-a562dc8e8050"}'
