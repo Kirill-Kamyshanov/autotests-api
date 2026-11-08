@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjQ4LjQyMzg4MSIsInVzZXJfaWQiOiIzNWY5MDMzMC00NmE5LTRmYmEtYmE1OC02Y2Y0NjkzNzk4ZmMifQ.rdE7JDfgPqZjKFqMrdEBl_0eDDy4y1IeIU-GY15hkEE'\
+-H 'content-length: 419'\
+-H 'content-type: application/json'\
+-d '{"title":"Not pressure determine weight citizen arm.","maxScore":65,"minScore":18,"description":"Contain Mrs tree even technology especially book story. Develop war business social work.\nUnit year three party involve unit. Alone generation throughout act above style field unit.","estimatedTime":"9 weeks","previewFileId":"fbdc96b7-1a6e-4ae3-97a8-1ca21f693e8b","createdByUserId":"35f90330-46a9-4fba-ba58-6cf4693798fc"}'

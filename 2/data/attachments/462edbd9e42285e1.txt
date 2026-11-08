@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/83cf93cc-8ce9-4eb7-90c1-744f5935297c'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjQ4LjQyMzg4MSIsInVzZXJfaWQiOiIzNWY5MDMzMC00NmE5LTRmYmEtYmE1OC02Y2Y0NjkzNzk4ZmMifQ.rdE7JDfgPqZjKFqMrdEBl_0eDDy4y1IeIU-GY15hkEE'\
+-H 'content-length: 320'\
+-H 'content-type: application/json'\
+-d '{"title":"Old policy them impact hot bed growth keep.","maxScore":90,"minScore":17,"description":"Girl value world final. Rise community fund around. Sound where do have on.\nAct there Democrat. Skin career truth despite improve official at. Spend me why measure contain hand risk population.","estimatedTime":"6 weeks"}'

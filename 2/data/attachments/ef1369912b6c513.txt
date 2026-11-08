@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjUyLjAyODg2MSIsInVzZXJfaWQiOiJjZDg2MTI2Yi01ODEwLTQ0MWQtYmUwOS0wOTQzODkzNTc3OWMifQ.RVNJoqbUvMBWsX-8ilppv-zx31JJyPIlIJSC-G4FO7o'\
+-H 'content-length: 360'\
+-H 'content-type: application/json'\
+-d '{"title":"Talk turn grow example human.","maxScore":72,"minScore":3,"description":"Happy employee participant land though source great.\nPersonal compare yeah model accept. Follow design expert time memory wonder sister.","estimatedTime":"8 weeks","previewFileId":"ff10d5de-3316-4fa0-8061-c0e28d426876","createdByUserId":"cd86126b-5810-441d-be09-09438935779c"}'

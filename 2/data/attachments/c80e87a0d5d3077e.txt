@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjUwLjgxNTg3NSIsInVzZXJfaWQiOiI3ODY0ODU0Mi1lNTFlLTRlOGYtYTc1OS0xYWUzY2MxOWZmM2UifQ.6iIq1RPtWVw6qadO4cHDt_Ka1Qzmu2Hf6TeV_norfcg'\
+-H 'content-length: 435'\
+-H 'content-type: application/json'\
+-d '{"title":"Country rather after decade want recognize.","maxScore":53,"minScore":22,"description":"Small month keep free study dinner pretty. Reveal fish father college find.\nListen network against good last high magazine. Technology manager TV system.\nRequire among five. Whom life have field.","estimatedTime":"7 weeks","previewFileId":"eb8e2a0a-6abb-479e-9662-a05528b02ed6","createdByUserId":"78648542-e51e-4e8f-a759-1ae3cc19ff3e"}'

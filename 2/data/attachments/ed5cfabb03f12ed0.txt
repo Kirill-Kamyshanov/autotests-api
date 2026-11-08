@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjQ5LjYyMTY5MSIsInVzZXJfaWQiOiJhZmY5OWQ4MC1kZjg0LTRlZDUtYTgxNi0wODI3MjJlZmUzOGYifQ.j1NokAtbNkc1_imx7cd73nr8VoIoKdyaX4Dw22LDzV4'\
+-H 'content-length: 442'\
+-H 'content-type: application/json'\
+-d '{"title":"Stop movement long dream including nearly position leg.","maxScore":65,"minScore":30,"description":"Get dark range help let. Security debate teacher so bit plan out. Doctor result foot figure.\nProgram soldier Democrat still your major. Realize bring several into including building purpose.","estimatedTime":"10 weeks","previewFileId":"f6accb98-a3a0-4001-8f98-81c269a1abfa","createdByUserId":"aff99d80-df84-4ed5-a816-082722efe38f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjQ4LjY5NzQxMiIsInVzZXJfaWQiOiJmY2ZhZDgwNy04ZDRhLTQyOTAtODI5MC01NzVlMzQ3OWM1Y2MifQ.aq44sR7fyq5brLj8hHgeR1d9xbOUDTS6XG_tW7F7bL8'\
+-H 'content-length: 439'\
+-H 'content-type: application/json'\
+-d '{"title":"Sport development despite various necessary.","maxScore":93,"minScore":14,"description":"Enter degree world hospital end. If important maintain body. Under radio win claim local.\nSit high home history senior. Kind clear couple here.\nPut leave recent man. Use degree exactly value speech.","estimatedTime":"6 weeks","previewFileId":"94719b34-cd10-4740-bf3b-7060b35dd494","createdByUserId":"fcfad807-8d4a-4290-8290-575e3479c5cc"}'

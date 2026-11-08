@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQxOjQ3LjI1NTY1MSIsInVzZXJfaWQiOiJjY2JiZTY1MC0wMWVkLTQwNTktOGM5ZC1jOTI1MTAzZGUyMWQifQ.WbYYf1KMcshCpTtW0sqZMRkYbUvQGiH2fOyShMDtA60'\
+-H 'content-length: 403'\
+-H 'content-type: application/json'\
+-d '{"title":"If ask evidence current chance organization explain.","maxScore":97,"minScore":13,"description":"Six spring culture defense catch out.\nNot talk from. Significant receive strong.\nLetter still since mouth account value. Type see book face real industry.","estimatedTime":"3 weeks","previewFileId":"044df11f-740d-46ef-a185-4f278bea8ad5","createdByUserId":"ccbbe650-01ed-4059-8c9d-c925103de21d"}'
