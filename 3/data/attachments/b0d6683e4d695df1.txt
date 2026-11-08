@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjAyLjc4OTk2OCIsInVzZXJfaWQiOiJjMDYzMTdlYS1kODlmLTQ3MmItYjMxZS00YzVhOWE3MDdjMTMifQ.cf4ULqp4wSjFoCbMAL-rm95A60-phcbIXU9yWe6-GnM'\
+-H 'content-length: 392'\
+-H 'content-type: application/json'\
+-d '{"title":"Which option live simply your.","maxScore":66,"minScore":1,"description":"Of key ball wife return parent buy. Training water part cold alone.\nItself account production reason. Black arrive management more them. Modern from half product city.","estimatedTime":"1 weeks","previewFileId":"969c0ee1-c78c-41e1-89c8-d945a57a9d1c","createdByUserId":"c06317ea-d89f-472b-b31e-4c5a9a707c13"}'

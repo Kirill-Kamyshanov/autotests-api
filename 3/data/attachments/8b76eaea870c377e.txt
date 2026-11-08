@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjA0LjAwNTgxMiIsInVzZXJfaWQiOiI3YzM1MDkyYS05ZDUwLTQ3NTctYjRiMi04MjdkZDQ2NTM4MDgifQ.7_H_GidE9rIplysictbJuAS-6WIJKxTIX2Ci_ahrGRI'\
+-H 'content-length: 393'\
+-H 'content-type: application/json'\
+-d '{"title":"Effect mention type dark son.","maxScore":96,"minScore":23,"description":"Either worker sit.\nAgency college work thought interest whom speak spring. Best season side pass keep. Political relate firm left. Work be test meeting take vote large.","estimatedTime":"3 weeks","previewFileId":"e1cdeef2-dbb5-4b37-9c43-8391ec2ed3b8","createdByUserId":"7c35092a-9d50-4757-b4b2-827dd4653808"}'

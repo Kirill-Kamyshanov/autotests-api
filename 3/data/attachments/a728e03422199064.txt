@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjAxLjMyNDU5MiIsInVzZXJfaWQiOiI1MDQyMmJkZS02NzI0LTRmZGYtOWIwNy1mNDUzYzkyZmU2ZDIifQ.RKawDlpi3vdevBuo6tP4dgHsZ-sPAdoeub6meGX_gi4'\
+-H 'content-length: 365'\
+-H 'content-type: application/json'\
+-d '{"title":"Drive business form capital Mr.","maxScore":84,"minScore":24,"description":"Where same particular sister way foreign. Nearly standard approach sure throw between. Ever safe every free culture already administration.","estimatedTime":"5 weeks","previewFileId":"a6113dd5-d219-4cad-b4a4-cbff5313c6f6","createdByUserId":"50422bde-6724-4fdf-9b07-f453c92fe6d2"}'

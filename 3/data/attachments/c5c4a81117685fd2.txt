@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjAxLjkwNzg1MCIsInVzZXJfaWQiOiIzYTc4YjYwNS1iMDYwLTRlMDAtYjI5Mi1mZmRmMDUyNDExNDAifQ.wCb6X2gIf36LNAyjpqwM9PSfamcH-Tgz1wcZWjaKoAA'\
+-H 'content-length: 400'\
+-H 'content-type: application/json'\
+-d '{"title":"Person responsibility down.","maxScore":63,"minScore":30,"description":"Respond election north drug huge. Rate possible drug during picture.\nFill remain difference nothing more deep. Guess sound although return. Defense blue discuss community major.","estimatedTime":"7 weeks","previewFileId":"487317ee-8a4d-4430-a1c1-3c5b3bcd4823","createdByUserId":"3a78b605-b060-4e00-b292-ffdf05241140"}'

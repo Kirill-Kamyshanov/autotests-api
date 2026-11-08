@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjAzLjA2NDYwNiIsInVzZXJfaWQiOiIyNTkzMmIxYS02Njk1LTQ4ZDYtOTkxNy02NWE2M2MwOWY1N2EifQ.JU4uugJ9VDByJ1MDRxv1axBa_ZnOZH7i9m1MRx7b7XY'\
+-H 'content-length: 361'\
+-H 'content-type: application/json'\
+-d '{"title":"How station hour along.","maxScore":85,"minScore":12,"description":"Organization discover security mean our.\nSeveral ok care skill this per name. Lawyer out they road painting. Herself his war bar natural mean.","estimatedTime":"8 weeks","previewFileId":"a72066bc-8ee6-4deb-8d87-c90494a5deb4","createdByUserId":"25932b1a-6695-48d6-9917-65a63c09f57a"}'

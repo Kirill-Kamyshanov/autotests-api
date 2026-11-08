@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjAwLjQwNjg3MCIsInVzZXJfaWQiOiJiZTVkZTM3MS05ZTkyLTQzNDctODdmZi1hOTIyOTQwYzM0ZDYifQ.hQGRovtOnxlDJhi_ON684A6E3gn8O27Q6JyTyfv-v-E'\
+-H 'content-length: 429'\
+-H 'content-type: application/json'\
+-d '{"title":"Check heavy often American great dream still little.","maxScore":50,"minScore":23,"description":"Sign beat spring shoulder statement she. Than significant work course head.\nTable get rock reduce charge. Quickly around peace management note ever. Early later lose item yard pull.","estimatedTime":"4 weeks","previewFileId":"f5f73194-6379-45f0-b71f-13d01038d2cd","createdByUserId":"be5de371-9e92-4347-87ff-a922940c34d6"}'

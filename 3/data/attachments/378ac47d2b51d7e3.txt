@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjA1LjIwNDM1NiIsInVzZXJfaWQiOiIzNjI4M2MzYy05Zjg1LTRhYzEtOTE3Yy05NDVmOWFhYTYzMGMifQ.cMxKDuzZA4mU9ttKNtiYUgqN8JoB6mATDpaFblb6s-k'\
+-H 'content-length: 319'\
+-H 'content-type: application/json'\
+-d '{"title":"Itself house religious central.","maxScore":88,"minScore":25,"description":"Candidate small structure artist. Forget exist treat strong consider. Bar newspaper identify.","estimatedTime":"4 weeks","previewFileId":"ee3b4ed9-9bd4-46c6-8e22-5d49aa50e852","createdByUserId":"36283c3c-9f85-4ac1-917c-945f9aaa630c"}'

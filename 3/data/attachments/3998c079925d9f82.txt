@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDEzOjQ3OjA1LjIwNDM1NiIsInVzZXJfaWQiOiIzNjI4M2MzYy05Zjg1LTRhYzEtOTE3Yy05NDVmOWFhYTYzMGMifQ.cMxKDuzZA4mU9ttKNtiYUgqN8JoB6mATDpaFblb6s-k'\
+-H 'content-length: 320'\
+-H 'content-type: application/json'\
+-d '{"title":"None talk list send.","courseId":"b1c865df-677e-4628-9f79-ad3202963ea0","maxScore":68,"minScore":23,"orderIndex":75,"description":"Bill employee challenge concern traditional usually. Resource human top project whole site play. Business old meet police manage professional another.","estimatedTime":"10 weeks"}'
