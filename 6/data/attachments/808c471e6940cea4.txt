@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjM0LjA2OTE2MiIsInVzZXJfaWQiOiJiZmU3MjcyYS0xNjFkLTRmM2UtOTQ5MS1hYWU5NmE0NjM1OTMifQ.2zLxghWlBLYD79LWggTsLIyIGTeMPvdcQgrTnKK8UKM'\
+-H 'content-length: 360'\
+-H 'content-type: application/json'\
+-d '{"title":"Nothing modern myself firm.","maxScore":62,"minScore":23,"description":"Fine message PM truth. Nature seat affect trial issue team kitchen.\nHave whom act get wonder local lay. Affect card cultural hair manage.","estimatedTime":"7 weeks","previewFileId":"3fe26536-2476-4264-acdd-eaf1a17426ed","createdByUserId":"bfe7272a-161d-4f3e-9491-aae96a463593"}'

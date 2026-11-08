@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMyLjIxMDQ0NiIsInVzZXJfaWQiOiJiMjBhMzhlZS1kMGJjLTRmNzItOWYyYS1jNTNjNzQ0N2I0ZWIifQ.GUiBx1m9r4tnYKNlZhnBBCVhX5Sf_2x1kIF0Kh1eFMo'\
+-H 'content-length: 427'\
+-H 'content-type: application/json'\
+-d '{"title":"Way quickly worry language doctor although build.","maxScore":58,"minScore":20,"description":"Foreign you human new reach. Especially on stuff next oil. Indeed medical check into subject assume. Son authority recognize mind yeah white should.\nProject research wind generation.","estimatedTime":"5 weeks","previewFileId":"f481c5e7-cdfd-4d89-9d29-8983b3ee8001","createdByUserId":"b20a38ee-d0bc-4f72-9f2a-c53c7447b4eb"}'

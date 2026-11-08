@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjM1LjA4ODE2MSIsInVzZXJfaWQiOiIyYzAyOGEwZC1kMzU0LTQyMmItYWNlMy1kNTliZjM0MjMzMmQifQ.GYdz3Isfm53wub8AtIWHoj119U0zbgJbtnIX903VyZI'\
+-H 'content-length: 448'\
+-H 'content-type: application/json'\
+-d '{"title":"Town including color about concern next picture late.","maxScore":69,"minScore":2,"description":"Course east laugh hour skill civil.\nOwn science then. Away control people.\nLight light listen what news option. Order son leader same.\nModel according mean wonder those. Personal lose few condition.","estimatedTime":"4 weeks","previewFileId":"2906c9fe-1b9d-4d5e-af81-c15cdf8155ea","createdByUserId":"2c028a0d-d354-422b-ace3-d59bf342332d"}'

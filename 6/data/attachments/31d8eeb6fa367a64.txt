@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMzLjI1NjIxMyIsInVzZXJfaWQiOiJiNGQ4MmIwNy1lYWIwLTQ3OWMtYWFlMS0yZjljMjhhZjQ4YzgifQ.UfN175FNcR5Kqeueb5P8NJdeu3_IgonzLF5uiDUJ7U8'\
+-H 'content-length: 333'\
+-H 'content-type: application/json'\
+-d '{"title":"With road better real record never.","maxScore":69,"minScore":18,"description":"New rock crime agreement contain first both. Tax role mean she build reality. Establish goal bill lose.","estimatedTime":"1 weeks","previewFileId":"914548c1-f371-468c-91e1-c1759cce21ba","createdByUserId":"b4d82b07-eab0-479c-aae1-2f9c28af48c8"}'

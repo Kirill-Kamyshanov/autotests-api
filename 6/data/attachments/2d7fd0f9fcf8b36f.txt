@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMzLjQ0Njc0NiIsInVzZXJfaWQiOiI1ZjdhOGNiYi00YzBiLTQ3ZTUtOGM1MS1mNmJkOGMwZTZkNjYifQ.WToxAzXZuBRz3VgdbjAM5dfbja67_sVWuyuw7V6GJlc'\
+-H 'content-length: 293'\
+-H 'content-type: application/json'\
+-d '{"title":"Attorney same blood.","courseId":"69987748-fb13-496c-9d26-cb230a87a61d","maxScore":99,"minScore":3,"orderIndex":3,"description":"Season always hundred oil. East cost commercial old usually agency.\nWhen stage research provide sport. Could can great avoid.","estimatedTime":"3 weeks"}'

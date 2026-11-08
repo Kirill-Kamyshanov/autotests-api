@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/9c096f38-28ed-4d33-9899-8f5d2e80dea0'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMyLjYxNTAxNSIsInVzZXJfaWQiOiIwMjFkYzQxZi01OTg0LTQzMzQtYTg3Mi1jNjczMjZmNWUzYTkifQ.7Rss5V0sq1JpDZ2mvanruEu63jCEHZiTX7c2qLNRQho'\
+-H 'content-length: 241'\
+-H 'content-type: application/json'\
+-d '{"title":"Above rest life imagine because.","maxScore":65,"minScore":13,"description":"First level skill campaign experience. Human expert season watch ok front wait.\nThird computer join type across myself focus.","estimatedTime":"1 weeks"}'

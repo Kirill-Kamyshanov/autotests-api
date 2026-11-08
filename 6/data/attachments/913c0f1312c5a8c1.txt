@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjM0LjI1OTcxMCIsInVzZXJfaWQiOiI0MDIxMDU1My01ODEzLTQzMWMtOWRkMS02MGM4OWQ5ODdlZGYifQ.e_X9v-HcUGp3U0_OhV2cnjIn6lNIn3wjBLOR1GMCYZ0'\
+-H 'content-length: 408'\
+-H 'content-type: application/json'\
+-d '{"title":"State yes money board attention reach four.","maxScore":56,"minScore":10,"description":"Movement site place budget.\nThing expect hair executive. Kind people one behind state.\nWhere else daughter leader spend rock. Memory a public later water assume couple.","estimatedTime":"5 weeks","previewFileId":"8560d6a6-dfd9-4649-9d7b-3c2959d7f19d","createdByUserId":"40210553-5813-431c-9dd1-60c89d987edf"}'

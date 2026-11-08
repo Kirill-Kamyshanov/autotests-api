@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjM0LjA2OTE2MiIsInVzZXJfaWQiOiJiZmU3MjcyYS0xNjFkLTRmM2UtOTQ5MS1hYWU5NmE0NjM1OTMifQ.2zLxghWlBLYD79LWggTsLIyIGTeMPvdcQgrTnKK8UKM'\
+-H 'content-length: 285'\
+-H 'content-type: application/json'\
+-d '{"title":"Information our feel interest.","courseId":"41000903-cb7f-475d-a7e0-651fdac09f4f","maxScore":79,"minScore":28,"orderIndex":22,"description":"Wrong top structure get. Yeah without then grow never result.\nMeet seek American stuff certain condition.","estimatedTime":"2 weeks"}'

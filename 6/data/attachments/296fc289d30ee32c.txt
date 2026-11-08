@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMyLjYxNTAxNSIsInVzZXJfaWQiOiIwMjFkYzQxZi01OTg0LTQzMzQtYTg3Mi1jNjczMjZmNWUzYTkifQ.7Rss5V0sq1JpDZ2mvanruEu63jCEHZiTX7c2qLNRQho'\
+-H 'content-length: 381'\
+-H 'content-type: application/json'\
+-d '{"title":"Ten without role lose use this.","maxScore":100,"minScore":4,"description":"Management society future there decision surface daughter certain. On yes describe.\nActually space some become star around along. Us better per past when.","estimatedTime":"5 weeks","previewFileId":"763553f8-d691-4ac9-8d9c-c9ba93a6d5c5","createdByUserId":"021dc41f-5984-4334-a872-c67326f5e3a9"}'

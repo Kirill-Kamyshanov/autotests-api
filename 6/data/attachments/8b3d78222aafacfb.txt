@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjM0Ljg5NzYxNyIsInVzZXJfaWQiOiIyMjU2NmMyMi1iZmE4LTQzZmUtYjkyMC0xYTE0MzY4MTJjYzIifQ.tCgQk1Z-Az7l1BgqFMfoJFn9q4Dxioe7GKEMKDwsHzo'\
+-H 'content-length: 311'\
+-H 'content-type: application/json'\
+-d '{"title":"Television always sound might.","maxScore":100,"minScore":17,"description":"Light example many fact street nor. Meet identify seek. Also without chair take mind.","estimatedTime":"2 weeks","previewFileId":"ec27ba40-28d9-49c9-a18b-41f213afeb17","createdByUserId":"22566c22-bfa8-43fe-b920-1a1436812cc2"}'

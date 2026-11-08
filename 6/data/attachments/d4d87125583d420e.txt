@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE0OjIxOjMzLjQ0Njc0NiIsInVzZXJfaWQiOiI1ZjdhOGNiYi00YzBiLTQ3ZTUtOGM1MS1mNmJkOGMwZTZkNjYifQ.WToxAzXZuBRz3VgdbjAM5dfbja67_sVWuyuw7V6GJlc'\
+-H 'content-length: 395'\
+-H 'content-type: application/json'\
+-d '{"title":"Mean difficult store story send maintain.","maxScore":60,"minScore":27,"description":"Now wear ball step street maintain six. So per political throw. Prove perform local discuss list door alone.\nList work military. Law sometimes summer mention.","estimatedTime":"7 weeks","previewFileId":"1aa3c375-4914-45f6-aeba-4bd371a2a4e0","createdByUserId":"5f7a8cbb-4c0b-47e5-8c51-f6bd8c0e6d66"}'
