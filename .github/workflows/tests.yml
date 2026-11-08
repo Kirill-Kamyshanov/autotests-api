@@ -1,0 +1,80 @@
+name: API tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Клонировать репозиторий на машину GitHub Actions
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Установить Python на виртуальной машине
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Клонировать репозиторий с тестовым сервером в рабочую среду
+      - name: Clone test server repository
+        run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
+
+      # 4. Установить зависимости для тестового сервера
+      - name: Install test server dependencies
+        run: pip install -r qa-automation-engineer-api-course/requirements.txt
+
+      # 5. Запустить тестовый сервер с необходимыми переменными окружения
+      - name: Start a test server
+        env:
+          APP_HOST: "http://localhost:8000"
+          DATABASE_URL: "sqlite+aiosqlite:///./local.db"
+          JWT_ALGORITHM: "HS256"
+          JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"
+          JWT_ACCESS_TOKEN_EXPIRE: 1800
+          JWT_REFRESH_TOKEN_EXPIRE: 5184000
+        run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
+
+      # 6. Установить все зависимости проекта
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 7. Запустить тесты с использованием pytest и сгенерировать отчёт Allure
+      - name: Run API tests with pytest and generate Allure results
+        run: |
+          pytest -m regression --alluredir=allure-results --numprocesses 2
+
+      # 8. Получить историю отчётов Allure, если она существует
+      - name: Get Allure history
+        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages  # Ветка для получения отчётов
+          path: gh-pages  # Путь для сохранения отчётов
+
+      # 9. Генерация и отображение отчёта Allure
+      - name: Generates Allure Report with history
+        uses: simple-elf/allure-report-action@v1.12  # Готовое решение из GitHub Marketplace для генерации Allure отчёта
+        if: always()
+        with:
+          allure_results: allure-results  # Каталог с результатами тестов
+          allure_history: allure-history  # Каталог для истории отчётов Allure
+
+      # 10. Деплой отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4  # Публикация отчёта на GitHub Pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Токен для аутентификации на GitHub
+          publish_branch: gh-pages  # Отчёт будет опубликован в ветке gh-pages
+          publish_dir: allure-history  # Папка, которая будет опубликована на GitHub Pages
