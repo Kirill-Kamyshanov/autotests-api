@@ -53,7 +53,18 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
-      # 8. Получить историю отчётов Allure, если она существует
+      # 8. Выгрузка /allure-results как артефакта текущей джобы
+      - name: Upload allure-results
+        uses: actions/upload-artifact@v7
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 7
+
+  publish-report:
+    runs-on: ubuntu-latest
+    steps:
+      # 9. Переключиться на ветку gh-pages и получить историю отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()
@@ -62,7 +73,7 @@ jobs:
           ref: gh-pages  # Ветка для получения отчётов
           path: gh-pages  # Путь для сохранения отчётов
 
-      # 9. Генерация и отображение отчёта Allure
+      # 10. Генерация и отображение отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.15  # Готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()
@@ -70,7 +81,7 @@ jobs:
           allure_results: allure-results  # Каталог с результатами тестов
           allure_history: allure-history  # Каталог для истории отчётов Allure
 
-      # 10. Деплой отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 11. Деплой отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4  # Публикация отчёта на GitHub Pages
