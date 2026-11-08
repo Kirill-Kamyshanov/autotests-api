@@ -15,7 +15,7 @@ jobs:
     steps:
       # 1. Клонировать репозиторий на машину GitHub Actions
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # 2. Установить Python на виртуальной машине
       - name: Set up Python
@@ -55,7 +55,7 @@ jobs:
 
       # 8. Получить историю отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()
         continue-on-error: true
         with:
@@ -64,7 +64,7 @@ jobs:
 
       # 9. Генерация и отображение отчёта Allure
       - name: Generates Allure Report with history
-        uses: simple-elf/allure-report-action@v1.12  # Готовое решение из GitHub Marketplace для генерации Allure отчёта
+        uses: simple-elf/allure-report-action@v1.15  # Готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()
         with:
           allure_results: allure-results  # Каталог с результатами тестов
