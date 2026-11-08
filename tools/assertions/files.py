@@ -70,6 +70,8 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
     """
+    logger.info("Check create file with empty filename response")
+
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
@@ -81,7 +83,6 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
             )
         ]
     )
-    logger.info("Check create file with empty filename response")
 
     assert_validation_error_response(actual, expected)
 
@@ -94,6 +95,8 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
     """
+    logger.info("Check create file with empty directory response")
+
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
@@ -105,7 +108,6 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
             )
         ]
     )
-    logger.info("Check create file with empty directory response")
 
     assert_validation_error_response(actual, expected)
 
@@ -118,9 +120,9 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фактический ответ.
     :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
     """
-    expected = InternalErrorResponseSchema(details="File not found")
     logger.info("Check file not found response")
 
+    expected = InternalErrorResponseSchema(details="File not found")
     assert_internal_error_response(actual, expected)
 
 
@@ -132,6 +134,8 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
     """
+    logger.info("Check get file with incorrect file id response")
+
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
@@ -145,6 +149,5 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
             )
         ]
     )
-    logger.info("Check get file with incorrect file id response")
 
     assert_validation_error_response(actual, expected)
