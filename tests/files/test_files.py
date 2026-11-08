@@ -117,7 +117,7 @@ class TestFiles:
     @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
         get_response = files_client.get_file_api("incorrect-file-id")
-        assert_status_code(get_response.status_code, HTTPStatus.UNPROCESSABLE_CONTENT)
+        assert_status_code(get_response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
 
         get_response_data = ValidationErrorResponseSchema.model_validate_json(get_response.text)
         assert_get_file_with_incorrect_file_id_response(get_response_data)
