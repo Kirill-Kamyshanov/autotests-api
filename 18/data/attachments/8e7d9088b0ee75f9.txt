@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ3LjE5MDE4MCIsInVzZXJfaWQiOiI2MTVlOTcyYy1kMmIxLTQ5YTctYWU3ZC1lYmY5NDM2ZTk5OGIifQ.DRVF3O9uB9nGmBn7s5z_rt9pdPsyM5lmuxDkdDPuXGM'\
+-H 'content-length: 380'\
+-H 'content-type: application/json'\
+-d '{"title":"Character carry cell do.","maxScore":55,"minScore":14,"description":"Interest serve important place music tonight. Feeling prepare wall card use.\nRock structure compare become set. Itself environment population ability interview.","estimatedTime":"3 weeks","previewFileId":"914b8237-764b-4724-92c1-a7cbc58eefe6","createdByUserId":"615e972c-d2b1-49a7-ae7d-ebf9436e998b"}'

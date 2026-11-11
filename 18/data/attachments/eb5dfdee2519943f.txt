@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ2LjQ3MTU3NyIsInVzZXJfaWQiOiIwOWJkMWFlZS01MDQ5LTQwY2UtYjBjMC0wYmMwMjMwNmY4MDUifQ.52kJdZwbfas0-d-XDFWEi1TCTs6Kfc2h0A1ANlQQHL8'\
+-H 'content-length: 400'\
+-H 'content-type: application/json'\
+-d '{"title":"Marriage eight step inside teacher condition.","maxScore":73,"minScore":2,"description":"Order expert gun western. Administration case stop peace. Game apply hotel value everybody.\nTotal culture improve middle return that. Deal employee wait agency.","estimatedTime":"9 weeks","previewFileId":"7d3dd897-7bdc-4f69-9f1d-b2a2e05eab9e","createdByUserId":"09bd1aee-5049-40ce-b0c0-0bc02306f805"}'

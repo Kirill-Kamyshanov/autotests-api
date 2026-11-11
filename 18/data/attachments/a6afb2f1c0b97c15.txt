@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ5LjAxNzczMCIsInVzZXJfaWQiOiJhMzkzZmI5Mi0wMDI0LTQ0MjEtYWVlOC00YTE4NWJjNDgyNWUifQ.12BqkiRzw4cmx6peOE_3GxTqXk6F_u954DKj-NclS5I'\
+-H 'content-length: 422'\
+-H 'content-type: application/json'\
+-d '{"title":"It west investment major act describe dog.","maxScore":93,"minScore":25,"description":"Knowledge pay season high. Land lawyer discussion probably wear start low.\nMethod traditional company share ever western. Particularly hear pay interesting. Senior class race pay last.","estimatedTime":"6 weeks","previewFileId":"22f7aaf4-2682-4992-893b-18b5122a449d","createdByUserId":"a393fb92-0024-4421-aee8-4a185bc4825e"}'

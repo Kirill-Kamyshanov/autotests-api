@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ2LjE4MzU0MyIsInVzZXJfaWQiOiJhMTg3ZWY2NC0xNDhiLTQyNjAtYjI0Ny1mY2M2NzVhOTc4M2YifQ.KjkYeO8GhBdvWw5Yqq2HrrlK3M38_aI10HjW-xG2PVY'\
+-H 'content-length: 373'\
+-H 'content-type: application/json'\
+-d '{"title":"White world tonight care window kid audience.","maxScore":62,"minScore":9,"description":"Pay project think new seven scene huge sell. Smile necessary family interesting material. Upon different culture surface begin during.","estimatedTime":"9 weeks","previewFileId":"0a250855-f339-47bd-b101-8c0d38eef699","createdByUserId":"a187ef64-148b-4260-b247-fcc675a9783f"}'

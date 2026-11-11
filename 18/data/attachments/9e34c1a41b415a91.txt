@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to White world tonight care window kid audience.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Pay project think new seven scene huge sell. Smile necessary family interesting material. Upon different culture surface begin during.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 0a250855-f339-47bd-b101-8c0d38eef699
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to a187ef64-148b-4260-b247-fcc675a9783f
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

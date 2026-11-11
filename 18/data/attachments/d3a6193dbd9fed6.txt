@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ5LjAxNzczMCIsInVzZXJfaWQiOiJhMzkzZmI5Mi0wMDI0LTQ0MjEtYWVlOC00YTE4NWJjNDgyNWUifQ.12BqkiRzw4cmx6peOE_3GxTqXk6F_u954DKj-NclS5I'\
+-H 'content-length: 270'\
+-H 'content-type: application/json'\
+-d '{"title":"Expect ahead majority somebody measure tend.","courseId":"bb91af2d-ab71-4f62-a4cb-2faa4f2ea761","maxScore":66,"minScore":30,"orderIndex":60,"description":"Customer avoid may art. We control base rock great church. Pay end challenge.","estimatedTime":"5 weeks"}'

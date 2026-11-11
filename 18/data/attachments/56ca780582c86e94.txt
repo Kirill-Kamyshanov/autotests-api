@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ4LjcyODkwNiIsInVzZXJfaWQiOiI0MTdiNzA5OS1mYjgzLTQ2ZTgtYmE1Ni0wYjFmMDJkN2QxODMifQ.X752XHoz5oO9_mb5j1iI9sqMRn8ZadaqYCf68Cvx0wg'\
+-H 'content-length: 344'\
+-H 'content-type: application/json'\
+-d '{"title":"Sit idea movement together word.","courseId":"73514c0d-6993-4fc3-8131-58c4323a6601","maxScore":54,"minScore":19,"orderIndex":48,"description":"Garden really beautiful political. Discuss hot clearly win.\nEnter mouth white good. Allow surface nice drug data force his nothing. Fine out thing child new wear.","estimatedTime":"9 weeks"}'

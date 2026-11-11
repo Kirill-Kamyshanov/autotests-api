@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM5OjQ1LjIyMzA1OSIsInVzZXJfaWQiOiIzOTk2ZjBhZS05OTI5LTRiMzMtYjViMC1lNzIwN2QyM2Y3NzAifQ.C9RuuGXFsGZh0PvBgcTpbktyJkXRngsQAUYEMcNIJUQ'\
+-H 'content-length: 344'\
+-H 'content-type: application/json'\
+-d '{"title":"Ago its mention your east.","maxScore":89,"minScore":21,"description":"Common increase bring term. Key true idea.\nGlass culture fast think adult yes between. Market collection these start wife.","estimatedTime":"3 weeks","previewFileId":"51994177-a483-49ad-bd3c-6d57b61e8947","createdByUserId":"3996f0ae-9929-4b33-b5b0-e7207d23f770"}'
