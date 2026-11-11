@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUzLjIxOTAwOSIsInVzZXJfaWQiOiIyOTJkOTVhNS02YmE0LTQ0M2EtODRkZS0yNTkxNjg5M2E1NTgifQ.EgbPatyppUdt-ZQMeNp2VOAjujljbwuC-lT2Xk4mJJQ'\
+-H 'content-length: 409'\
+-H 'content-type: application/json'\
+-d '{"title":"Effect candidate knowledge care include impact.","maxScore":62,"minScore":11,"description":"Newspaper of science. Another eye nor color collection. Stage this into money. Might against official already particular interesting.\nFeeling every interest building.","estimatedTime":"2 weeks","previewFileId":"476daa05-74fd-40a8-8e36-51b147ee66ab","createdByUserId":"292d95a5-6ba4-443a-84de-25916893a558"}'

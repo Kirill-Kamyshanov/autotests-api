@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/eee2831a-dead-4000-ae80-6992ec66cd61'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUyLjQyNjQ5NSIsInVzZXJfaWQiOiJmNGUzYWU3Yy1lNmUyLTQxNGQtYWZjNy0wNmFlZTRiNmJmMDEifQ.N74CJvwa55nXnw58Peh8sass3ZTIip_2NsPHzCybbH0'\
+-H 'content-length: 284'\
+-H 'content-type: application/json'\
+-d '{"title":"Trip some garden will instead quality company.","maxScore":74,"minScore":9,"orderIndex":84,"description":"Situation account voice science create. Sea week training those.\nYeah product year case few including factor. Society key here five health.","estimatedTime":"8 weeks"}'

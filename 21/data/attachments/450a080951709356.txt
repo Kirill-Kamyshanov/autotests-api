@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUyLjQyNjQ5NSIsInVzZXJfaWQiOiJmNGUzYWU3Yy1lNmUyLTQxNGQtYWZjNy0wNmFlZTRiNmJmMDEifQ.N74CJvwa55nXnw58Peh8sass3ZTIip_2NsPHzCybbH0'\
+-H 'content-length: 415'\
+-H 'content-type: application/json'\
+-d '{"title":"I order back big reach.","maxScore":64,"minScore":30,"description":"High success floor either would. Character treat western who song ok house whatever.\nProgram herself late way.\nStore include animal force go. Style within fire business seem structure scientist.","estimatedTime":"10 weeks","previewFileId":"f976e590-cc56-4cff-86f4-238c204717e3","createdByUserId":"f4e3ae7c-e6e2-414d-afc7-06aee4b6bf01"}'

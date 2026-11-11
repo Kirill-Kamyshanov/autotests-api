@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUzLjQ1ODE2NiIsInVzZXJfaWQiOiI4YjhlZTA4MS04ZWYwLTRmMDMtYWVmMi0yYzg3OTg3NjRkOWEifQ.aFqq1EqAAdPWfG3UKQpzZ9do0X2uwVCYHddLmqwMx7Q'\
+-H 'content-length: 308'\
+-H 'content-type: application/json'\
+-d '{"title":"Message into effort huge.","maxScore":67,"minScore":1,"description":"Get imagine see air available phone military career. Modern finish customer develop blue.","estimatedTime":"2 weeks","previewFileId":"6ef92c0f-a99f-4a3b-8219-c16452e9a9f2","createdByUserId":"8b8ee081-8ef0-4f03-aef2-2c8798764d9a"}'

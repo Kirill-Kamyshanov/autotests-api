@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUwLjg3MDgwMSIsInVzZXJfaWQiOiI5NGFiZGY1OS05MzI4LTQ4ZTUtODgwOC1lYTg3YmNjZGYxMGEifQ.VL7hEuDIW_3ghDY-UneAWLViEDdNRZqUGtLrxLUcql8'\
+-H 'content-length: 335'\
+-H 'content-type: application/json'\
+-d '{"title":"Deep others none in rich.","maxScore":50,"minScore":5,"description":"Film range particular teach fire must base. Work particular but entire discuss.\nFilm much study. Decide foot child.","estimatedTime":"2 weeks","previewFileId":"13c6d005-041a-4911-ad5c-cd484fe0c380","createdByUserId":"94abdf59-9328-48e5-8808-ea87bccdf10a"}'

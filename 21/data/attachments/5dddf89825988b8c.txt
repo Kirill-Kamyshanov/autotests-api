@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Tv trouble suffer season push.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Religious wear push from. Mouth necessary daughter.
+Audience tell great rest your. Under budget week effect. Late enter young each summer. Behind worry member operation risk.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to b9eed2b8-4adf-4acb-ad0d-fe5302084daa
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 39f2a991-10dc-49af-a51d-adccf30767a5
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

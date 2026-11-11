@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUyLjE4NzMyNCIsInVzZXJfaWQiOiJhMGVjNzVjOC02MzRiLTQ4YTYtOGVjZS1lYWUyMzVlZDI5YTUifQ.xafTTdJ0lbk1TD7yY4WKKNkrd9WhFMxTxWjW5I7n4ro'\
+-H 'content-length: 314'\
+-H 'content-type: application/json'\
+-d '{"title":"Choice billion now.","maxScore":91,"minScore":7,"description":"End five others so. Science pay management former practice section table remember. Plan poor forget.","estimatedTime":"10 weeks","previewFileId":"d7750481-e4cf-4bea-a8fc-1d2b2b48efe8","createdByUserId":"a0ec75c8-634b-48a6-8ece-eae235ed29a5"}'

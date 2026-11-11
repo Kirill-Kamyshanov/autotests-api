@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjU0LjMzMzA4MyIsInVzZXJfaWQiOiIwMGIzNWRkNy00MzNkLTQ1Y2UtOTRlYS1hMWYwYTQ2YjIzOTUifQ.qRQBl3aKpzsKJKUyzbVZqzbguMWCaud6rcR7ECNqtCw'\
+-H 'content-length: 423'\
+-H 'content-type: application/json'\
+-d '{"title":"Model wonder clearly especially.","maxScore":58,"minScore":13,"description":"See poor information local letter store mention. Play among present young school.\nQuite whose probably. Safe guy western where.\nParticipant clear a. President discover point make again grow big.","estimatedTime":"4 weeks","previewFileId":"deb0f3c2-c738-44e3-8ad1-ce8d78ef0f7b","createdByUserId":"00b35dd7-433d-45ce-94ea-a1f0a46b2395"}'

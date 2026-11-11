@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUyLjE4NzMyNCIsInVzZXJfaWQiOiJhMGVjNzVjOC02MzRiLTQ4YTYtOGVjZS1lYWUyMzVlZDI5YTUifQ.xafTTdJ0lbk1TD7yY4WKKNkrd9WhFMxTxWjW5I7n4ro'\
+-H 'content-length: 284'\
+-H 'content-type: application/json'\
+-d '{"title":"Where once begin meeting.","courseId":"09e43797-50df-4303-8693-42206f64b606","maxScore":88,"minScore":5,"orderIndex":44,"description":"Table if success one dog. Among effect time together water.\nPosition care sure official wear conference late.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjQ5Ljk2NTcyOSIsInVzZXJfaWQiOiI5YTVhMzc3MC1jNjZlLTQ2MjEtODhjMi0xMTExMDM2ODU5NzYifQ.r6jaFRdnWBJ6mytkCyuF0piIdSZeM6uLgqUmT8FD5NQ'\
+-H 'content-length: 371'\
+-H 'content-type: application/json'\
+-d '{"title":"Black home window usually.","maxScore":63,"minScore":2,"description":"Leader available behind debate note add medical sing. Account recognize pull town.\nQuickly never well long forget. Cultural race between during since.","estimatedTime":"3 weeks","previewFileId":"ae74897b-069e-46ba-b07d-639492514166","createdByUserId":"9a5a3770-c66e-4621-88c2-111103685976"}'

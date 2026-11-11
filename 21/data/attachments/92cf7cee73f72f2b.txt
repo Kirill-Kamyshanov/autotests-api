@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU1OjUxLjM2NTcyNyIsInVzZXJfaWQiOiIzOWYyYTk5MS0xMGRjLTQ5YWYtYTUxZC1hZGNjZjMwNzY3YTUifQ.nO_5eW4MxY-fN9qSJeFtZ1zHcb5Tfem2nuDPVVY5GaI'\
+-H 'content-length: 400'\
+-H 'content-type: application/json'\
+-d '{"title":"Tv trouble suffer season push.","maxScore":82,"minScore":15,"description":"Religious wear push from. Mouth necessary daughter.\nAudience tell great rest your. Under budget week effect. Late enter young each summer. Behind worry member operation risk.","estimatedTime":"6 weeks","previewFileId":"b9eed2b8-4adf-4acb-ad0d-fe5302084daa","createdByUserId":"39f2a991-10dc-49af-a51d-adccf30767a5"}'
