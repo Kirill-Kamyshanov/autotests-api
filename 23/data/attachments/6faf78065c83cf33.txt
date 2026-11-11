@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjA5LjIwNTQ1NSIsInVzZXJfaWQiOiJiNTY3MGVjOC0zN2IzLTQ4MGMtYWJiYi0yOTMzNWFmZTRkNzUifQ.XGu8-F5TceKtKxlnbCOdr3GDJuMTOWVU_J7P4yVwog0'\
+-H 'content-length: 422'\
+-H 'content-type: application/json'\
+-d '{"title":"Least develop city according.","maxScore":79,"minScore":14,"description":"Surface many whole already money enjoy. Next responsibility key radio energy bank this six. Instead along part ever deep.\nDecide machine land phone claim a final. Film time become light pull enjoy.","estimatedTime":"8 weeks","previewFileId":"3a34eec3-1de2-4716-8958-e9b25d0220b8","createdByUserId":"b5670ec8-37b3-480c-abbb-29335afe4d75"}'

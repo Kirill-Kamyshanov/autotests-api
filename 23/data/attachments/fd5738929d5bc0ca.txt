@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjExLjU1ODM1MCIsInVzZXJfaWQiOiI4NmM2YTNlZS1lYjA0LTQzNjEtYmVjYi0xM2U1YjBiM2Y4OWMifQ.res_iZXnQSbhADJMbifnGWNsEmhMmhcHQmWPneDRipM'\
+-H 'content-length: 435'\
+-H 'content-type: application/json'\
+-d '{"title":"Message employee thousand build yes economy.","maxScore":54,"minScore":17,"description":"Writer rest defense stop.\nYard daughter activity fire energy road themselves.\nMonth measure manager toward close top skill. Laugh kitchen American recent tree. South figure over method morning.","estimatedTime":"10 weeks","previewFileId":"46bb91af-b192-432b-b58c-52c191dca783","createdByUserId":"86c6a3ee-eb04-4361-becb-13e5b0b3f89c"}'

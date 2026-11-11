@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjA3LjQ0NjA5MCIsInVzZXJfaWQiOiJjYjQ2MGUwOS1jMWEyLTQxMWEtOWZiMS03NDY4N2EyMjk1MzMifQ.lSkIKEiGNf1c6qfUpLnrjKuWPJ62_0JauU5mTH_99z4'\
+-H 'content-length: 380'\
+-H 'content-type: application/json'\
+-d '{"title":"Local appear recently meeting development.","maxScore":90,"minScore":4,"description":"Join American fall decide artist. Goal memory hear this late chance.\nChoose step moment develop. That behind push on however production arrive.","estimatedTime":"6 weeks","previewFileId":"ec597329-75d2-423b-9f59-416649288121","createdByUserId":"cb460e09-c1a2-411a-9fb1-74687a229533"}'

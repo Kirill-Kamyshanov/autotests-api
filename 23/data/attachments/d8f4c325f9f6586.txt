@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjEwLjEwMjE1MyIsInVzZXJfaWQiOiJlNWM5YzI5OC03Y2ZkLTRiODYtYTM4MS1mOTIxNzdlNjdjMTIifQ.CAgyJ9-lpQjLBTATEd5MZbNtxY_0NOEH7HTrJe1f2K4'\
+-H 'content-length: 357'\
+-H 'content-type: application/json'\
+-d '{"title":"Trial catch school source issue clearly stop.","maxScore":100,"minScore":28,"description":"Candidate example six identify accept bank. Friend sit knowledge enjoy American animal reason. Art animal direction.","estimatedTime":"9 weeks","previewFileId":"b984508d-1625-43c9-ba55-d61732a7d7d7","createdByUserId":"e5c9c298-7cfd-4b86-a381-f92177e67c12"}'

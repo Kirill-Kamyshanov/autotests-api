@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjEwLjM3NDA1NSIsInVzZXJfaWQiOiI2ODAzNWZmNC0xNzg1LTQyMmItYmU4OC1jYzU5YzhjNjhhMDcifQ.m7SDZGuYd9sTnf8qCHlIlbuphixa5MNY8caw9DmDf6k'\
+-H 'content-length: 255'\
+-H 'content-type: application/json'\
+-d '{"title":"Listen politics actually usually.","maxScore":80,"minScore":5,"description":"Or decision ready wall view.","estimatedTime":"2 weeks","previewFileId":"5f26a401-db4e-4b68-9646-dd8125aceeb9","createdByUserId":"68035ff4-1785-422b-be88-cc59c8c68a07"}'

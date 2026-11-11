@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjA4LjkyOTY5MSIsInVzZXJfaWQiOiJlNDRlMmU1ZC00N2FkLTRiZjktOWE3Ni1mNzE2NWY4MTg4ODcifQ.3gL-jZEhHGS27FL-4_fpdXzPSmc_eVI094GMpe1LmPQ'\
+-H 'content-length: 429'\
+-H 'content-type: application/json'\
+-d '{"title":"Figure response official upon house.","maxScore":60,"minScore":3,"description":"Director choice nice international deal. Happy usually walk within. Such deal wall particular home list partner.\nBeat make the director. Interview sell month lawyer thing statement according choice.","estimatedTime":"9 weeks","previewFileId":"5708d3bd-9f6d-47ef-84e7-3f9afab9ff4e","createdByUserId":"e44e2e5d-47ad-4bf9-9a76-f7165f818887"}'

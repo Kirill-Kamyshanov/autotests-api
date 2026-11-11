@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE3OjA3OjA4LjAyMTM0NiIsInVzZXJfaWQiOiI5N2ZjZTQyNy1lNjM1LTQzMmUtYWE3Mi1kMGZhNDU1YjhlZDAifQ.DAa8d_5mXqvT8FPCrSRHwrHgguirE_ynvEpJOpKSY7Q'\
+-H 'content-length: 346'\
+-H 'content-type: application/json'\
+-d '{"title":"Your begin recognize game force food.","maxScore":78,"minScore":9,"description":"Seek lose produce almost education available group.\nRace value so through. Sense beat sometimes maybe tend ground.","estimatedTime":"8 weeks","previewFileId":"7ccd454d-a30e-4043-b8b3-27c18e5413f0","createdByUserId":"97fce427-e635-432e-aa72-d0fa455b8ed0"}'
