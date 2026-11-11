@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjM4LjgwODY5NyIsInVzZXJfaWQiOiIyNmY3YjNkYS1kYjEyLTQ0YmMtODc5ZS02Zjc4ZjQzY2E2ZTcifQ.kX1BRthoxu3f0m4E2_2gUdFkFZCvgRyChPLwf5Hbt9U'\
+-H 'content-length: 369'\
+-H 'content-type: application/json'\
+-d '{"title":"Especially buy land simply.","maxScore":92,"minScore":3,"description":"Cold attention professor lead brother design. Enjoy hit offer require key matter use central. Effect director strategy spring. Risk despite compare.","estimatedTime":"9 weeks","previewFileId":"a9f6a8b3-6864-419f-acf6-9068390f1038","createdByUserId":"26f7b3da-db12-44bc-879e-6f78f43ca6e7"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/6028875a-f40a-4164-a194-21e76137cd60'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjM5LjY3NzgyNCIsInVzZXJfaWQiOiIyODJmOWQ2MS0zYzZiLTRkNjctYTE4Ny02ZjM1ODcyMjg2OWMifQ.TO9-0AdfJCPc4q23UBn5dKQzecEPcG7FVewStcK2owA'\
+-H 'content-length: 305'\
+-H 'content-type: application/json'\
+-d '{"title":"Go force how carry their itself total.","maxScore":68,"minScore":7,"description":"Best why follow seem. Either street in late possible country.\nRange reality summer determine air must far. Around first science whatever. Institution admit indicate point people quite.","estimatedTime":"1 weeks"}'

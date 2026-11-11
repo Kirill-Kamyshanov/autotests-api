@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQxLjE1ODcxMSIsInVzZXJfaWQiOiJhYWI2YTNjNy0wMDYyLTRmYjUtYTkzMS0yMzE3YWVmYTc0NWMifQ.EyhD7saVjcXtnObV2qUCsDoPm2zdUx25oN14zDWIfPI'\
+-H 'content-length: 301'\
+-H 'content-type: application/json'\
+-d '{"title":"Reduce partner bill apply west keep protect miss.","courseId":"add5cfb8-06d1-4034-b078-98daa61a36f9","maxScore":79,"minScore":14,"orderIndex":87,"description":"Skin significant near. Political parent gun capital agree store theory alone. Drug each pull gun maybe.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/2609ae08-be5b-49d1-89a3-58c6cb18bb7f
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/2609ae08-be5b-49d1-89a3-58c6cb18bb7f
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 2609ae08-be5b-49d1-89a3-58c6cb18bb7f
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Simply however Democrat measure or.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 0b6a7325-031f-4c3d-aa9b-312c2d95e036
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Part hold main exist situation.
+Become common yourself ball.
+Society discover have general may weight third. Its now machine serious upon game. Good hotel lead return former go.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQyLjYxNzQxMyIsInVzZXJfaWQiOiJmNDMwMmFiYS0yYjc4LTQzMTEtOTNiNi0zNzdlMzUzZjUxOGIifQ.iq0SXRP7FeSo4Vjp063E2ud8Xqi-c7ltIACc1lxoIAU'\
+-H 'content-length: 392'\
+-H 'content-type: application/json'\
+-d '{"title":"Benefit seek character nature two.","maxScore":70,"minScore":18,"description":"Believe station national partner. Carry relationship story base career finish.\nMedia better spring address determine. No suggest shake before commercial brother.","estimatedTime":"10 weeks","previewFileId":"b2399c7f-0e27-4a36-a9d8-82ff8092624d","createdByUserId":"f4302aba-2b78-4311-93b6-377e353f518b"}'

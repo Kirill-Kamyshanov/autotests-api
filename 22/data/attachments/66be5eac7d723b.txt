@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQyLjM0NDU4NiIsInVzZXJfaWQiOiJlZmE1M2M5Ny1mYWIyLTRmNDItYTc2ZS1kOWI1NzBlNDE0YjMifQ.v2KPCIRIWAlXKCHbjs1qYYD24dm26gO-U0eDFXHTTJ0'\
+-H 'content-length: 362'\
+-H 'content-type: application/json'\
+-d '{"title":"Simply however Democrat measure or.","courseId":"0b6a7325-031f-4c3d-aa9b-312c2d95e036","maxScore":70,"minScore":9,"orderIndex":3,"description":"Part hold main exist situation.\nBecome common yourself ball.\nSociety discover have general may weight third. Its now machine serious upon game. Good hotel lead return former go.","estimatedTime":"10 weeks"}'

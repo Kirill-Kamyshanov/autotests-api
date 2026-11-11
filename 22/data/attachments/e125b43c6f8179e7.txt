@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQyLjYxNzQxMyIsInVzZXJfaWQiOiJmNDMwMmFiYS0yYjc4LTQzMTEtOTNiNi0zNzdlMzUzZjUxOGIifQ.iq0SXRP7FeSo4Vjp063E2ud8Xqi-c7ltIACc1lxoIAU'\
+-H 'content-length: 271'\
+-H 'content-type: application/json'\
+-d '{"title":"Soldier stuff subject arrive.","courseId":"0e29d59f-f4c9-40d7-9857-364093b0226a","maxScore":97,"minScore":15,"orderIndex":2,"description":"Real job likely and. Minute less international different lot sell. Break fight low beat card.","estimatedTime":"10 weeks"}'

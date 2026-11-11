@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjM5LjY3NzgyNCIsInVzZXJfaWQiOiIyODJmOWQ2MS0zYzZiLTRkNjctYTE4Ny02ZjM1ODcyMjg2OWMifQ.TO9-0AdfJCPc4q23UBn5dKQzecEPcG7FVewStcK2owA'\
+-H 'content-length: 404'\
+-H 'content-type: application/json'\
+-d '{"title":"Box people bank dog indicate something able.","maxScore":54,"minScore":15,"description":"Federal base even see knowledge Mrs but.\nExpert plan fall including gas line hope draw. Teacher culture develop Mrs. Need area local picture. Better explain choice.","estimatedTime":"1 weeks","previewFileId":"863c0e98-b3a0-48b5-b797-ef742f628139","createdByUserId":"282f9d61-3c6b-4d67-a187-6f358722869c"}'

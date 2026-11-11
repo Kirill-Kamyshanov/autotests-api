@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQwLjI3MjY2MiIsInVzZXJfaWQiOiI3YmYwZmEzOS1hZTQ1LTRlM2UtOGQ4NC1lY2NjZjA5ZjViMjgifQ.7v2Q_tyVjptE1iFXJ7BLmvvZyG8Z0nT8L6viLlx69rU'\
+-H 'content-length: 329'\
+-H 'content-type: application/json'\
+-d '{"title":"Forward computer fear right.","maxScore":70,"minScore":19,"description":"Our get current expect professional necessary current attorney. Research computer animal allow red speech.","estimatedTime":"3 weeks","previewFileId":"2b4c28a0-3af7-4ac3-b4c2-6a869d34bcd6","createdByUserId":"7bf0fa39-ae45-4e3e-8d84-ecccf09f5b28"}'

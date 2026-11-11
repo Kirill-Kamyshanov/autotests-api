@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQxLjQzMTQ4NiIsInVzZXJfaWQiOiIzNjk4NmE3ZS04Y2RmLTQxMzEtYWIyMi1jNTJkZjBiMzFlYjkifQ.SaOGau2PwKdCMuebMmmAA8zHlNlvDd_I2WajG3nuvp8'\
+-H 'content-length: 414'\
+-H 'content-type: application/json'\
+-d '{"title":"More respond with as dream civil.","maxScore":82,"minScore":24,"description":"Program college hard arm vote travel have. Necessary future want society blood.\nReport seem question positive any ever natural. Population under leg. Example wonder more describe truth.","estimatedTime":"5 weeks","previewFileId":"7c096444-c982-4ebb-8cf1-aff17c9221b7","createdByUserId":"36986a7e-8cdf-4131-ab22-c52df0b31eb9"}'

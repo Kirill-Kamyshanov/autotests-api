@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjU2OjQxLjE1ODcxMSIsInVzZXJfaWQiOiJhYWI2YTNjNy0wMDYyLTRmYjUtYTkzMS0yMzE3YWVmYTc0NWMifQ.EyhD7saVjcXtnObV2qUCsDoPm2zdUx25oN14zDWIfPI'\
+-H 'content-length: 416'\
+-H 'content-type: application/json'\
+-d '{"title":"Suggest special range animal low top.","maxScore":62,"minScore":19,"description":"First then teach one employee. Investment then baby pressure read sport light. Field face ten.\nGreen reason large technology cover during. Traditional seat walk member different land.","estimatedTime":"4 weeks","previewFileId":"42ba066e-cabb-4f99-9c32-aa7847f0cf09","createdByUserId":"aab6a3c7-0062-4fb5-a931-2317aefa745c"}'
