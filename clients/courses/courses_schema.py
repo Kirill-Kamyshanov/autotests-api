@@ -1,10 +1,21 @@
+import uuid
+
 from pydantic import BaseModel, ConfigDict, Field
 
 from clients.files.files_schema import FileSchema
 from clients.users.users_schema import UserSchema
-from pydantic_basics import CourseSchema
 from tools.fakers import fake
 
+
+class CourseSchema(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    title: str = "Playwright"
+    max_score: int = Field(alias="maxScore", default=1000)
+    min_score: int = Field(alias="minScore", default=100)
+    description: str = "Playwright course"
+    preview_file: FileSchema = Field(alias="previewFile")
+    estimated_time: str = Field(alias="estimatedTime", default="2 weeks")
+    created_by_user: UserSchema = Field(alias="createdByUser")
 
 class GetCoursesQuerySchema(BaseModel):
     """Описание структуры запроса на получение списка курсов."""
