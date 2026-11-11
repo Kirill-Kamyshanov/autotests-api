@@ -51,7 +51,7 @@ jobs:
       # 7. Запустить тесты с использованием pytest и сгенерировать отчёт Allure
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m regression --alluredir=allure-results --numprocesses 2
+          pytest -m regression --alluredir=allure-results --numprocesses=2
 
       # 8. Восстановление истории покрытия из кэша
       - name: Restore Coverage history
