@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ5Ljc1NjU3NiIsInVzZXJfaWQiOiJmMWM5YmY4NS05YzRkLTQ2OTQtYjRmMi0zMzdkOWRiNTFlYmEifQ.5OiHP4ya76k5OFWjJZS0aJpuPS0fIxGnUfFwh6IxpdQ'\
+-H 'content-length: 362'\
+-H 'content-type: application/json'\
+-d '{"title":"Too four current sense hope.","courseId":"30e38adf-816f-411c-81f6-91f6f681102f","maxScore":66,"minScore":10,"orderIndex":91,"description":"Over necessary religious scene threat. Toward bag Congress visit approach oil surface. Commercial environmental many something large nothing. Level enjoy growth edge fast drug word hit.","estimatedTime":"9 weeks"}'

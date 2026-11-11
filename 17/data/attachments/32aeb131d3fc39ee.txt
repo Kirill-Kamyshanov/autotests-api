@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=30e38adf-816f-411c-81f6-91f6f681102f
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=30e38adf-816f-411c-81f6-91f6f681102f
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:121 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:73 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 407e302b-831c-41b0-92d6-2577d4a22323
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Too four current sense hope.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 30e38adf-816f-411c-81f6-91f6f681102f
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 91
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Over necessary religious scene threat. Toward bag Congress visit approach oil surface. Commercial environmental many something large nothing. Level enjoy growth edge fast drug word hit.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

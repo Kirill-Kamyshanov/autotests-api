@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ5LjUxNjgzMCIsInVzZXJfaWQiOiIyNzU1NzVlZS1iYzQyLTQzOTUtYjYzYy01NDFhM2E3OGE3YjQifQ.7TqzAs2wZzC7GRQEU6rZif3j586TSA8Tmb-PKLsIX5M'\
+-H 'content-length: 398'\
+-H 'content-type: application/json'\
+-d '{"title":"Society street dark list middle item.","maxScore":62,"minScore":17,"description":"Theory but thought discover serve today dinner. You light thousand member night rock keep in.\nConsumer easy game budget itself site. Serve first worry study purpose.","estimatedTime":"4 weeks","previewFileId":"b73a3851-31f4-4e13-b554-99863a76ec5b","createdByUserId":"275575ee-bc42-4395-b63c-541a3a78a7b4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ4LjQ1MTYwMCIsInVzZXJfaWQiOiIxM2I3ZDM3YS00OTJlLTQ4NDAtYWZmZi00ZjAxMDkxMDU1MTIifQ.kM3vvdSkmuHeiMHDamvN6oJjayStkiUQvxO1ZfWowkM'\
+-H 'content-length: 353'\
+-H 'content-type: application/json'\
+-d '{"title":"Old heart authority production return hot.","maxScore":92,"minScore":4,"description":"Child manager true.\nMission democratic dark during coach protect. Fast step realize soldier international high fall.","estimatedTime":"8 weeks","previewFileId":"bccda68a-a02e-424e-97bd-759e710cdd86","createdByUserId":"13b7d37a-492e-4840-afff-4f0109105512"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ3LjExODM3MSIsInVzZXJfaWQiOiIxZGViNGY5ZS1hNDg4LTQwNmUtOGIxMC1lZWY1NGQ3NjMyOTUifQ.MRZZWCaIboKBWEB12rdZYexbr23PvjsvzmScOWnbcXU'\
+-H 'content-length: 428'\
+-H 'content-type: application/json'\
+-d '{"title":"Glass quite option play five reality.","maxScore":97,"minScore":28,"description":"Half ground seat image quite other. Recent three cause animal growth but. Let month minute girl.\nGarden everything business owner. Policy customer finish movie PM wide. Lot fill back recent room.","estimatedTime":"9 weeks","previewFileId":"f3f1b5ff-6f91-419d-9b82-835255d08c07","createdByUserId":"1deb4f9e-a488-406e-8b10-eef54d763295"}'

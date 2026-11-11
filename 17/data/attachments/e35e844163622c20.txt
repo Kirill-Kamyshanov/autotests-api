@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ4LjY5MTg4MCIsInVzZXJfaWQiOiJiZWIyZmY1OS1jNjgyLTQwMDYtODg3MS0wM2Q5ZmJiOWEyMTYifQ.SAxYvdTfb2EgWDg2-4frnr0ZshlG3vJvfXVlV1x0h5M'\
+-H 'content-length: 406'\
+-H 'content-type: application/json'\
+-d '{"title":"Play painting go off white.","maxScore":85,"minScore":2,"description":"Parent first agreement travel smile help. Test president play. Director next community cost drive life point.\nMajority product sign place ago. Develop left member charge growth around.","estimatedTime":"2 weeks","previewFileId":"22e60308-a2fc-43a5-ae2a-c00d835cded9","createdByUserId":"beb2ff59-c682-4006-8871-03d9fbb9a216"}'

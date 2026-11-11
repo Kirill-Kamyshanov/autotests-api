@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ3LjYxOTM2NSIsInVzZXJfaWQiOiI1YjkzMmE4YS1mNTZmLTQwODQtOWY2My05NWM5NDgzNDBlNTAifQ.q5b0dCGzQ2xaK6B5eGp5EJEWPTbxppgsNTCl10M7h-Q'\
+-H 'content-length: 361'\
+-H 'content-type: application/json'\
+-d '{"title":"Fine thus officer film song after near.","maxScore":55,"minScore":16,"description":"Shoulder do measure me surface film pattern throw. Blood around audience suffer election represent. Seat thank focus poor long.","estimatedTime":"8 weeks","previewFileId":"34a3ea63-754a-4c78-b728-391cd180f91d","createdByUserId":"5b932a8a-f56f-4084-9f63-95c948340e50"}'

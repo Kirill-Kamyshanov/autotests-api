@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/345e1508-13e5-4e6f-b10c-8a308ef2fa77'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ2LjM5Nzc1MSIsInVzZXJfaWQiOiI4YWRkMzUxMS1lYThlLTRmOGItYjAzYS1kYzA0MzhhOTkwYzMifQ.sHXTzzG2IydmwHa_bE1Dye_8wmjPjJHnrXR1lMEZ99k'\
+-H 'content-length: 301'\
+-H 'content-type: application/json'\
+-d '{"title":"During her government professor.","maxScore":56,"minScore":4,"description":"Official morning debate investment. Stage central rate prepare where hard explain. Tax join few mind bank could.\nSerious kind music test lead there. Up take at network while tree wonder.","estimatedTime":"5 weeks"}'

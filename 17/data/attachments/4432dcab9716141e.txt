@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ2LjM5Nzc1MSIsInVzZXJfaWQiOiI4YWRkMzUxMS1lYThlLTRmOGItYjAzYS1kYzA0MzhhOTkwYzMifQ.sHXTzzG2IydmwHa_bE1Dye_8wmjPjJHnrXR1lMEZ99k'\
+-H 'content-length: 417'\
+-H 'content-type: application/json'\
+-d '{"title":"On music against join only deal.","maxScore":80,"minScore":13,"description":"Out use realize seat to process accept. Quality everybody occur wonder company. Bank position teacher again red.\nParty price mother game pass foreign. Become trial lay ahead. New work name.","estimatedTime":"8 weeks","previewFileId":"345a8b0e-d88a-4095-8626-7fd08f4d32c7","createdByUserId":"8add3511-ea8e-4f8b-b03a-dc0438a990c3"}'

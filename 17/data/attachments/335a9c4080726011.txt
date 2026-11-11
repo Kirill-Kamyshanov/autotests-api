@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjM2OjQ5Ljc1NjU3NiIsInVzZXJfaWQiOiJmMWM5YmY4NS05YzRkLTQ2OTQtYjRmMi0zMzdkOWRiNTFlYmEifQ.5OiHP4ya76k5OFWjJZS0aJpuPS0fIxGnUfFwh6IxpdQ'\
+-H 'content-length: 378'\
+-H 'content-type: application/json'\
+-d '{"title":"Hard one win fire capital matter.","maxScore":83,"minScore":19,"description":"Also serve into fact than woman. Practice force room and. Eye myself structure may view common both. New occur recently manager source response heart.","estimatedTime":"4 weeks","previewFileId":"188e5215-2fe2-4187-8b03-32900979ec5e","createdByUserId":"f1c9bf85-9c4d-4694-b4f2-337d9db51eba"}'
