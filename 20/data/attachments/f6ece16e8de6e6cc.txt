@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQwLjY1MjMxMiIsInVzZXJfaWQiOiI4YjI2MzhlYi01MmMxLTRhNjktYjQ0My02OWU1OGU5NTFjNTAifQ.QH9nhZu6CAFngV3MYZWnBw2bokLvc75C5dssii8nSZo'\
+-H 'content-length: 352'\
+-H 'content-type: application/json'\
+-d '{"title":"Cold particularly wrong look worker order.","courseId":"006291c4-3ae7-409f-8555-2fb4211aa59f","maxScore":68,"minScore":8,"orderIndex":37,"description":"Whose traditional run sit join. By significant military yeah effect watch. Full shake need tonight.\nSort follow law history everything. Lot section figure style.","estimatedTime":"5 weeks"}'

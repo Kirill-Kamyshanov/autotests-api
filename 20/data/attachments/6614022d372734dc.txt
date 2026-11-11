@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQwLjg5MTQwNCIsInVzZXJfaWQiOiJlNDgyYTUzMy1hMzgxLTQzYjYtYmMwMy1hOWUwZDEwOWIxYWIifQ.UOTlYw7el73RsIr2XNJi8J6WWxt2gWmw_-cy6WpEfHc'\
+-H 'content-length: 415'\
+-H 'content-type: application/json'\
+-d '{"title":"Wall far shoulder recognize machine.","maxScore":89,"minScore":15,"description":"Camera soon she power our so. Region trial building. Picture walk order buy once.\nTreatment me reflect. Early really management live truth. Rather drive chair officer into future air.","estimatedTime":"8 weeks","previewFileId":"7bf43638-cdc5-4171-864b-1b515722f8d3","createdByUserId":"e482a533-a381-43b6-bc03-a9e0d109b1ab"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjM4LjYxMDE5MCIsInVzZXJfaWQiOiJkZjg0MTE3OC0yNzZhLTQ3MzgtOWZmZi1lYzI0OWY0YzBjYTUifQ.wSv1LAjjxPLuHkAnUMm5V8UpaxTly0XA3AwkF9eE8G0'\
+-H 'content-length: 354'\
+-H 'content-type: application/json'\
+-d '{"title":"Pick five include once others but.","maxScore":82,"minScore":6,"description":"Short his natural information page.\nPartner concern at president newspaper among happen again. Attack both hospital increase.","estimatedTime":"7 weeks","previewFileId":"7db34691-ead6-483a-b638-7a5c8871af25","createdByUserId":"df841178-276a-4738-9fff-ec249f4c0ca5"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/15576938-cf74-4b40-b6e6-883809a164e3'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjM5LjM2NDI4OCIsInVzZXJfaWQiOiJhZWQ4ZjY0Ny0yYWY4LTRkYzctYTcyYy0yYWUxZjc5YjEwZDcifQ.fR0RGfcf0hVNbFaYSu0ljIsgF-m9sWUsLGTF8lHz3IE'\
+-H 'content-length: 303'\
+-H 'content-type: application/json'\
+-d '{"title":"Current final support deep color.","maxScore":92,"minScore":14,"description":"Get determine country senior. Watch money pass cost eat food increase.\nYourself game Congress compare. Specific generation whom whatever step woman. Mention good part job price believe.","estimatedTime":"10 weeks"}'

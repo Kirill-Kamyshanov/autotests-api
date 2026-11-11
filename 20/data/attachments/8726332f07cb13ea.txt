@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjM5Ljg3OTU3MyIsInVzZXJfaWQiOiIxODQwZTgxMy0wOGMzLTQ2NzEtODE3YS01Y2ZiZTI0MWExNWUifQ.iIjlv7i54d3YTKiDdGfw5El7gUM3CObJzXTdUF1vAyc'\
+-H 'content-length: 356'\
+-H 'content-type: application/json'\
+-d '{"title":"Health range American he class behavior.","maxScore":66,"minScore":24,"description":"Family road interest hundred give those. Foreign job any admit. Set partner cost beat sea many. Near defense choose able.","estimatedTime":"1 weeks","previewFileId":"0e27bf3d-7764-41af-a03c-dcf83883be5e","createdByUserId":"1840e813-08c3-4671-817a-5cfbe241a15e"}'

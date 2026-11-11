@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQyLjcwMDY0NyIsInVzZXJfaWQiOiJkZmM5YTRkZS01N2Q1LTQxMWMtODVjYy0zNmIwZDM0NzU4NjkifQ.rIzShk0UYqQ08BGHH_B-4lXXPEZufpOi8blHmzAOqNc'\
+-H 'content-length: 357'\
+-H 'content-type: application/json'\
+-d '{"title":"Run sport include.","maxScore":88,"minScore":9,"description":"Single this almost what do south attack boy. Old series start matter sound during. Four thousand recognize above by general available throughout.","estimatedTime":"3 weeks","previewFileId":"5ae4044e-ce06-4225-a170-7a7c3fe96135","createdByUserId":"dfc9a4de-57d5-411c-85cc-36b0d3475869"}'

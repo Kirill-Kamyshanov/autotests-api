@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQxLjkxMTQyOCIsInVzZXJfaWQiOiJkODYzMTI4NC00MDE0LTRjMGMtOWEyMC1lZWYzZmM4MDY0MjgifQ.KzqpBRjasaVexCXSwId9Ww-le52S-13yIYjHLi59NS8'\
+-H 'content-length: 348'\
+-H 'content-type: application/json'\
+-d '{"title":"Every return rich financial camera she.","courseId":"ceca06e9-a67a-4b36-a37f-bb2c7e6b8b20","maxScore":76,"minScore":28,"orderIndex":97,"description":"Too couple miss floor yet.\nSurface bill including each wide. Low anything above perform sing.\nFew environmental stock beat leave. Computer station worker one.","estimatedTime":"8 weeks"}'

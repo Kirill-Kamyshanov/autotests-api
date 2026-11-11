@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjM5LjM2NDI4OCIsInVzZXJfaWQiOiJhZWQ4ZjY0Ny0yYWY4LTRkYzctYTcyYy0yYWUxZjc5YjEwZDcifQ.fR0RGfcf0hVNbFaYSu0ljIsgF-m9sWUsLGTF8lHz3IE'\
+-H 'content-length: 386'\
+-H 'content-type: application/json'\
+-d '{"title":"Truth move item tend relate high.","maxScore":92,"minScore":20,"description":"Page side country realize finally. Challenge somebody get use wrong.\nOur allow according factor push face young out. Recognize dark rest what ago game clear.","estimatedTime":"5 weeks","previewFileId":"5dd6e079-c1ba-425a-a579-ebdd6b59abc8","createdByUserId":"aed8f647-2af8-4dc7-a72c-2ae1f79b10d7"}'

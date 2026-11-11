@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQxLjkxMTQyOCIsInVzZXJfaWQiOiJkODYzMTI4NC00MDE0LTRjMGMtOWEyMC1lZWYzZmM4MDY0MjgifQ.KzqpBRjasaVexCXSwId9Ww-le52S-13yIYjHLi59NS8'\
+-H 'content-length: 329'\
+-H 'content-type: application/json'\
+-d '{"title":"Sign than we stay religious item dog.","maxScore":57,"minScore":7,"description":"Student run fast usually three reduce. Involve so near unit mind fear ok. Together city religious.","estimatedTime":"3 weeks","previewFileId":"884e11b5-983a-48c0-9955-4431a5e1179b","createdByUserId":"d8631284-4014-4c0c-9a20-eef3fc806428"}'

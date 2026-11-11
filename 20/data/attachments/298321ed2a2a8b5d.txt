@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQ3OjQwLjY1MjMxMiIsInVzZXJfaWQiOiI4YjI2MzhlYi01MmMxLTRhNjktYjQ0My02OWU1OGU5NTFjNTAifQ.QH9nhZu6CAFngV3MYZWnBw2bokLvc75C5dssii8nSZo'\
+-H 'content-length: 429'\
+-H 'content-type: application/json'\
+-d '{"title":"Religious would pick draw majority.","maxScore":75,"minScore":14,"description":"Customer value wear east. Rest together write choose allow. Particular someone produce cover someone.\nFigure spring water local different describe. Poor floor half clearly. Congress decade product.","estimatedTime":"10 weeks","previewFileId":"c2e0481b-5dbf-4c53-b515-96991fe982a4","createdByUserId":"8b2638eb-52c1-4a69-b443-69e58e951c50"}'
