@@ -58,7 +58,7 @@ jobs:
         uses: actions/cache/restore@v5
         with:
           path: coverage-history.json
-          key: coverage-history-{{ github.run_id }}
+          key: coverage-history-${{ github.run_id }}
           restore-keys: |
             coverage-history-
 
@@ -73,16 +73,15 @@ jobs:
         uses: actions/cache/save@v5
         with:
           path: coverage-history.json
-          key: coverage-history-{{ github.run_id }}
+          key: coverage-history-${{ github.run_id }}
 
       # 11. Выгрузка отчёта о покрытии как артефакта
       - name: Upload coverage-report
+        if: always()
         uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage.html
-          retention-days: 7
-
 
       # 12. Выгрузка /allure-results как артефакта текущей джобы
       - name: Upload allure-results
