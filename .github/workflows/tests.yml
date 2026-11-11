@@ -58,21 +58,28 @@ jobs:
         with:
           path: coverage-history.json
           key: coverage-history-{{ github.run_id }}
+          restore-keys: |
+            coverage-history-
 
       # 9. Генерация отчёта о покрытии
       - name: Generate coverage report
-        run: swagger-coverage-tool save-report
+        run: |
+          swagger-coverage-tool save-report
 
       # 10. Кэширование отчёта о покрытии
       - name: Cache coverage history
+        if: always()
         uses: actions/cache/save@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-{{ github.run_id }}
 
       # 11. Выгрузка отчёта о покрытии как артефакта
       - name: Upload coverage-report
         uses: actions/upload-artifact@v7
         with:
           name: coverage-report
-          path: coverage-report.json
+          path: coverage-report.html
           retention-days: 7
 
 
