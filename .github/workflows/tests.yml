@@ -55,7 +55,6 @@ jobs:
 
       # 8. Восстановление истории покрытия из кэша
       - uses: actions/cache/restore@v5
-        id: cache
         with:
           path: coverage-history.json
           key: coverage-history-{{ github.run_id }}
@@ -66,7 +65,6 @@ jobs:
 
       # 10. Кэширование отчёта о покрытии
       - name: Cache coverage history
-        id: cache
         uses: actions/cache/save@v5
 
       # 11. Выгрузка отчёта о покрытии как артефакта
