@@ -53,7 +53,32 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
 
-      # 8. Выгрузка /allure-results как артефакта текущей джобы
+      # 8. Восстановление истории покрытия из кэша
+      - uses: actions/cache/restore@v5
+        id: cache
+        with:
+          path: coverage-history.json
+          key: coverage-history-{{ github.run_id }}
+
+      # 9. Генерация отчёта о покрытии
+      - name: Generate coverage report
+        run: swagger-coverage-tool save-report
+
+      # 10. Кэширование отчёта о покрытии
+      - name: Cache coverage history
+        id: cache
+        uses: actions/cache/save@v5
+
+      # 11. Выгрузка отчёта о покрытии как артефакта
+      - name: Upload coverage-report
+        uses: actions/upload-artifact@v7
+        with:
+          name: coverage-report
+          path: coverage-report.json
+          retention-days: 7
+
+
+      # 12. Выгрузка /allure-results как артефакта текущей джобы
       - name: Upload allure-results
         uses: actions/upload-artifact@v7
         with:
@@ -66,14 +91,14 @@ jobs:
     needs: run-tests
 
     steps:
-      # 9. Скачать результаты тестов из джобы run-tests
+      # 1. Скачать результаты тестов из джобы run-tests
       - name: Download allure-results
         uses: actions/download-artifact@v7
         with:
           name: allure-results
           path: allure-results
 
-      # 10. Переключиться на ветку gh-pages и получить историю отчётов Allure, если она существует
+      # 2. Переключиться на ветку gh-pages и получить историю отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()
@@ -82,7 +107,7 @@ jobs:
           ref: gh-pages  # Ветка для получения отчётов
           path: gh-pages  # Путь для сохранения отчётов
 
-      # 11. Генерация и отображение отчёта Allure
+      # 3. Генерация и отображение отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.15  # Готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()
@@ -90,7 +115,7 @@ jobs:
           allure_results: allure-results  # Каталог с результатами тестов
           allure_history: allure-history  # Каталог для истории отчётов Allure
 
-      # 12. Деплой отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 4. Деплой отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4  # Публикация отчёта на GitHub Pages
