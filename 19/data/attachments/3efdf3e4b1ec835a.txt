@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQyOjAxLjgxNzEzMSIsInVzZXJfaWQiOiIwMWZiNjg4ZS03OTRhLTQzZjQtODIzYy0xMzgwMGI5OGZjODYifQ.MWWEARvwbuYASjztwsRlTDB1j_pCg8TtX3A2NDSEJe0'\
+-H 'content-length: 340'\
+-H 'content-type: application/json'\
+-d '{"title":"Family close eye movie add the.","maxScore":58,"minScore":27,"description":"Energy data human either indeed nice. Walk experience how term. Black we follow fish myself certainly study these.","estimatedTime":"5 weeks","previewFileId":"477175bb-af58-4cdd-8261-a11f5d1d1ae2","createdByUserId":"01fb688e-794a-43f4-823c-13800b98fc86"}'

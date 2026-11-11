@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQyOjAxLjU1NjMwMyIsInVzZXJfaWQiOiI5NjBlYzRmNC0yMjc5LTQ2N2QtOGJmNS0yYjI0ZWU3NDcxMjkifQ.Cq5V5NpdbkV-QxbcGfKBP0iLRRWTmpFjV_nuUvw2Hec'\
+-H 'content-length: 351'\
+-H 'content-type: application/json'\
+-d '{"title":"Dream because agree move almost.","courseId":"65c1bfa6-5de2-40cf-b1ef-29094a9f1102","maxScore":89,"minScore":22,"orderIndex":73,"description":"Place security quickly but oil old democratic green. Sort itself party people. Person majority yeah box place clearly lead.\nMany turn southern theory movement kind rule.","estimatedTime":"6 weeks"}'

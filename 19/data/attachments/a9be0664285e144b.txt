@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQyOjAxLjU1NjMwMyIsInVzZXJfaWQiOiI5NjBlYzRmNC0yMjc5LTQ2N2QtOGJmNS0yYjI0ZWU3NDcxMjkifQ.Cq5V5NpdbkV-QxbcGfKBP0iLRRWTmpFjV_nuUvw2Hec'\
+-H 'content-length: 351'\
+-H 'content-type: application/json'\
+-d '{"title":"Unit kind design partner traditional thing together lose.","maxScore":93,"minScore":3,"description":"Enjoy stage record exist agency throughout happy. Difference throw public western by just political.","estimatedTime":"8 weeks","previewFileId":"12673e34-021c-446a-b716-3ce77b719144","createdByUserId":"960ec4f4-2279-467d-8bf5-2b24ee747129"}'

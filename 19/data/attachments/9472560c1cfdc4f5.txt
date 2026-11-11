@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/43093938-c482-423d-9563-148ddf2d3827'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQxOjU4LjQwMzA2MyIsInVzZXJfaWQiOiJkMDhhMTFkZi1kZDgxLTQ2N2MtOWE0MS1hMDhhZjFjOTRhODcifQ.XgKugk6NkMv_7qUPDPj6jdb-OooykSiYPPkPnYUlFaU'\
+-H 'content-length: 226'\
+-H 'content-type: application/json'\
+-d '{"title":"Seat card learn deep.","maxScore":57,"minScore":3,"description":"Time late production bag newspaper law. Provide out cup enter seat education. Career back wrong author choice how I people.","estimatedTime":"1 weeks"}'

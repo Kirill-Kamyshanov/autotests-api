@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQyOjAwLjY4MDkzOSIsInVzZXJfaWQiOiI1Nzk3OGI3Ny04OWJjLTQ2NDItYjNjNC1kYTA2N2E0NTg1MzkifQ.ocem0E_96sdyEcOEw7ol08XEXOzai31eOcl8EYEG1NM'\
+-H 'content-length: 377'\
+-H 'content-type: application/json'\
+-d '{"title":"Onto stock learn team detail nature.","maxScore":81,"minScore":16,"description":"Thing growth sister account. Majority different painting employee suffer.\nRadio lead against. Statement leg film evidence even economy property.","estimatedTime":"10 weeks","previewFileId":"08459cdd-cefd-4f7b-abe9-c665ea467b50","createdByUserId":"57978b77-89bc-4642-b3c4-da067a458539"}'

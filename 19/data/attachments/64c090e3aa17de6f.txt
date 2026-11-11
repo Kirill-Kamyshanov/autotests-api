@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQxOjU3Ljg1ODYwMCIsInVzZXJfaWQiOiJiODFmYTRlNC0yNTFiLTRjOTYtOWIyZC1mNWJkN2VjOTQyMjgifQ.DWlOs5kFjTessguzDIMu1UBRSg7Ci_ByMyKHXqZfk4Y'\
+-H 'content-length: 316'\
+-H 'content-type: application/json'\
+-d '{"title":"End necessary she health pattern.","maxScore":68,"minScore":28,"description":"Factor throughout law radio ahead second toward. Forget over fact rule star people land.","estimatedTime":"5 weeks","previewFileId":"bbf8ac2c-82fa-4c93-a98a-786fd4a2ccd1","createdByUserId":"b81fa4e4-251b-4c96-9b2d-f5bd7ec94228"}'

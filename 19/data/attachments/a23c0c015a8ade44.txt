@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-H 'host: localhost:8000'\
+-H 'accept: */*'\
+-H 'accept-encoding: gzip, deflate'\
+-H 'connection: keep-alive'\
+-H 'user-agent: python-httpx/0.28.1'\
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTExVDE2OjQxOjU4LjQwMzA2MyIsInVzZXJfaWQiOiJkMDhhMTFkZi1kZDgxLTQ2N2MtOWE0MS1hMDhhZjFjOTRhODcifQ.XgKugk6NkMv_7qUPDPj6jdb-OooykSiYPPkPnYUlFaU'\
+-H 'content-length: 421'\
+-H 'content-type: application/json'\
+-d '{"title":"During result and test mind.","maxScore":92,"minScore":25,"description":"Look player care memory treatment face goal. Manage what anyone perhaps. All animal challenge who practice. Exactly raise body chair.\nOnto relate place.\nPlant million though young head write eat.","estimatedTime":"10 weeks","previewFileId":"3c72fa30-d048-4c9e-8784-46894ffdb03c","createdByUserId":"d08a11df-dd81-467c-9a41-a08af1c94a87"}'
