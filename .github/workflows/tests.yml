@@ -84,7 +84,7 @@ jobs:
           retention-days: 7
 
 
-      # 12. Выгрузка /allure-results как артефакта текущей джобы
+      # 12. Выгрузка /allure-results как артефакта текущей джобы.
       - name: Upload allure-results
         uses: actions/upload-artifact@v7
         with:
